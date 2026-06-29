@@ -1,10 +1,11 @@
 -- Refer to the wiki for more information.
 -- https://wiki.hypr.land/Configuring/Start/
 
-require("Trist4nConfig/Keybinds")
-require("Trist4nConfig/WindowWorkspaces")
-require("Trist4nConfig/WindowRules")
-require("Trist4nConfig/AutoStart")
+require("config/keybinds")
+require("config/window-workspaces")
+require("config/window-rules")
+require("config/autostart")
+local colors = require("config/colors")
 
 ------------------
 ---- MONITORS ----
@@ -58,13 +59,13 @@ hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 hl.config({
     general = {
         gaps_in  = 5,
-        gaps_out = 20,
+        gaps_out = 15,
 
         border_size = 2,
 
         col = {
-            active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },
-            inactive_border = "rgba(595959aa)",
+            active_border   = colors.color2 ,
+            inactive_border = colors.background,
         },
 
         -- Set to true to enable resizing windows by clicking and dragging on borders and gaps
