@@ -10,6 +10,8 @@
 !wlogout/**
 !swaync/
 !swaync/**
+!rofi/
+!rofi/**
 
 # --- Global security ---
 *.key
