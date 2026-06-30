@@ -1,6 +1,7 @@
 @import url("../../.cache/wal/colors.css");
 * {
   font-family: "Roboto", "JetBrainsMono Nerd Font";
+  color: var(--foreground);
 }
 
 .control-center {
