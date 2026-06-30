@@ -28,6 +28,23 @@
             "nm-connection-editor": "󰐻"
         }
     },
+    "cava": {
+        "cava_config": "$XDG_CONFIG_HOME/waybar/cava.conf",
+        "input_delay": 2,
+        "format-icons": [
+            "▁",
+            "▂",
+            "▃",
+            "▄",
+            "▅",
+            "▆",
+            "▇",
+            "█"
+        ],
+        "actions": {
+            "on-click-right": "mode"
+        }
+    },
     "mpris": {
         "format": "{player_icon} {title} - {artist}",
         "format-paused": "{status_icon} {title} - {artist}",

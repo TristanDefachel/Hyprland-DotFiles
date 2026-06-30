@@ -42,6 +42,7 @@
             "transition-left-to-right": false
         },
         "modules": [
+            "cava",
             "pulseaudio",
             "pulseaudio/slider",
             "pulseaudio#microphone"
