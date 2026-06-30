@@ -14,6 +14,7 @@
         "custom/notification"
     ],
     "modules-right": [
+        "cava",
         "group/audio",
         "bluetooth",
         "network",
@@ -42,7 +43,6 @@
             "transition-left-to-right": false
         },
         "modules": [
-            "cava",
             "pulseaudio",
             "pulseaudio/slider",
             "pulseaudio#microphone"
