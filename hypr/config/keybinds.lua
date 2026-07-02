@@ -19,7 +19,7 @@ hl.bind(mainMod .. " + " .. globalVariables.keyboard.f3, hl.dsp.exec_cmd("flames
 hl.bind(mainMod .. " + SHIFT + " .. globalVariables.keyboard.f3, hl.dsp.exec_cmd("flameshot full --path ~/Pictures/Screenshots"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("loginctl lock-session"))
 hl.bind(mainMod .. " + ALT + L", hl.dsp.exec_cmd("loginctl lock-session && sleep 2 && systemctl suspend"))
-hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd("sh ~/.config/hypr/scripts/theme-switch.sh"))
+hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd("sh ~/.config/theme-sw1tcher/theme-sw1tcher.sh"))
 hl.bind(mainMod .. " + comma", hl.dsp.exec_cmd("rofimoji -a copy"))
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
